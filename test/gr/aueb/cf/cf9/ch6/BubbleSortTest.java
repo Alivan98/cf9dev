@@ -6,9 +6,6 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Unit tests για την κλάση {@link BubbleSort}.
  * Ελέγχει την ορθότητα του αλγορίθμου ταξινόμησης φυσαλίδας.
- *
- * @author Alivan
- * @version 1.0
  */
 class BubbleSortTest {
 
@@ -28,9 +25,8 @@ class BubbleSortTest {
         assertArrayEquals(expected, sorted);
     }
 
-    /**
-     * Ελέγχει τη συμπεριφορά του αλγορίθμου όταν ο πίνακας είναι ήδη ταξινομημένος.
-     */
+
+    //Ελέγχει τη συμπεριφορά του αλγορίθμου όταν ο πίνακας είναι ήδη ταξινομημένος.
     @Test
     void testAlreadySorted() {
         int[] sorted = {1, 2, 3, 4, 5};
