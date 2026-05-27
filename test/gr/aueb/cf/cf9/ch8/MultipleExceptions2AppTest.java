@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author Alivan
  * @version 1.0
  */
-class MultipleExceptionsAppTest {
+class MultipleExceptions2AppTest {
 
     /**
      * Ελέγχει αν η μέθοδος πετάει {@link FileNotFoundException}
