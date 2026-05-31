@@ -1,4 +1,4 @@
-package gr.aueb.cf.cf9.homework.ChapterThree;
+package gr.aueb.cf.cf9.homework.ch3;
 
 import java.util.Scanner;
 
