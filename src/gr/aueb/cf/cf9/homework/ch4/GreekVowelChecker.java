@@ -1,0 +1,38 @@
+package gr.aueb.cf.cf9.homework.ch4;
+
+import java.util.Scanner;
+
+public class GreekVowelChecker {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        char input;
+        boolean isVowel;
+        char ch;
+
+        System.out.print("Εισάγετε ένα ελληνικό χαρακτήρα: ");
+        input = scanner.next().charAt(0);
+        ch = Character.toUpperCase(input);
+
+//        switch (ch) {
+//            case 'Α':
+//            case 'Ε':
+//            case 'Η':
+//            case 'Ι':
+//            case 'Ο':
+//            case 'Υ':
+//            case 'Ω':
+//                isVowel = true;
+//                break;
+//            default:
+//                isVowel = false;
+//            break;
+//        }
+
+        isVowel = switch (ch) {
+            case 'Α', 'Ε', 'Η', 'Ι', 'Ο', 'Υ', 'Ω' -> true;
+            default -> false;
+        };
+
+        System.out.println("Είναι φωνήεν: " + isVowel);
+    }
+}
